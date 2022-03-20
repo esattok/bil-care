@@ -18,7 +18,6 @@ BilCare
 
 # Description
 
-Pandemic Manager is a medical website that allows users to monitor their health status with respect to Covid-19. In addition, users can easily access many pandemic features. In this project, our aim is to provide all the features that the user may need, as well as providing the necessary pandemic information.
 
 # Properties
 
