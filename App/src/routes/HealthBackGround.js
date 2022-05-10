@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function MyProfile() {
+function HealthBackGround() {
   return (
     
     <div className="App">
@@ -14,8 +14,8 @@ function MyProfile() {
         <span className='healthCenter'>
          <h1>BİLKENT HEALTH CENTER</h1>
         </span>
-  <a class="active" href="#home">Log-out</a>
-  <a class="active" href="#home">My Profile</a>
+        <a class="active" href="/Login">Log-out</a>
+        <a class="active" href="/MyProfile">My Profile</a>
   </div>
 
     <body>
@@ -27,55 +27,54 @@ function MyProfile() {
             </div>
 
             <ul>
-                <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js" class="active">
-                    
-                        <span class="item">Home</span>
+            <li>
+                        <a href="Home" class="active">
+                          <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/MedicalReport.js" class="active">
+                    <a href="/MedicalReport">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/TestResult">
                         <span class="item">Test Results</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Smoking">
                     
                         <span class="item">Smoking Cessitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js">
+                    <a href="/Veneral">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/HealthBackGround">
                     
                         <span class="item">Health Background Form</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AboutUs">
                       
                         <span class="item">About Us</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Feedback">
                       
                         <span class="item">User Feedback</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Help">
                       
                         <span class="item">Help</span>
                     </a>
@@ -83,37 +82,29 @@ function MyProfile() {
             </ul>
         </div>
         
-        <h2 class ="profileText">My Profile</h2>
-        <div class ="myProfileCon">
+        <div class="backCon">
 
-            <div class ="myProfileImg">
-            <img src="https://cdn4.vectorstock.com/i/thumb-large/28/63/profile-placeholder-image-gray-silhouette-vector-21542863.jpg" alt="profile_picture"></img>
-            </div>
-
-            <div class ="myProfileBox">
-            <p>Hereditary Diseases:</p> 
-            <p>Color Blindness Hemophilia </p>
-
-            
-            </div>
-
-            <div class ="myProfileBox">
-            <p>Ahmet Tuna Baykal</p>
-            <p>Age : 22</p>
-            <br></br>
-            <p>Last Occurence at Health Center:</p>
-            <p>1 month ago</p>
-
-            </div>
-
-            <div class ="myProfileBox">
-            <p>Recent Complaints:</p>
-            <p> Stomach Ache, Head Ache, Heart Palpitations</p>
-            </div>
-
+        <div class="backBox">
+            <h4>
+                Download default Health BackGround Form.
+            </h4>
+                 <p>Download the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">here
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
         </div>
 
-        <button type="submit" class="editPro">Edit Profile</button>
+        <div class="backBox">
+        <h4>
+                Upload your Health BackGround Form.
+            </h4>
+                 <p>Upload the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">here
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+        </div>
+
+        </div>
 
         <div class = "rightSide">
           <span class = "info1">
@@ -159,4 +150,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default MyProfile;
+export default HealthBackGround;

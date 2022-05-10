@@ -1,16 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import React from 'react';
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function Feedback() {
-
-
-
-
-
-
+function AboutUs() {
   return (
-
+    
     <div className="App">
        
       <div className="topnav">
@@ -20,8 +14,8 @@ function Feedback() {
         <span className='healthCenter'>
          <h1>BİLKENT HEALTH CENTER</h1>
         </span>
-  <a class="active" href="#home">Log-out</a>
-  <a class="active" href="#home">My Profile</a>
+        <a class="active" href="/Login">Log-out</a>
+        <a class="active" href="/MyProfile">My Profile</a>
   </div>
 
     <body>
@@ -33,90 +27,118 @@ function Feedback() {
             </div>
 
             <ul>
-                <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js" class="active">
-                    
-                        <span class="item">Home</span>
+            <li>
+                        <a href="Home" class="active">
+                          <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/MedicalReport">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/TestResult">
                         <span class="item">Test Results</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Smoking">
                     
                         <span class="item">Smoking Cessitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Veneral">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/HealthBackGround">
                     
                         <span class="item">Health Background Form</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AboutUs">
                       
                         <span class="item">About Us</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Feedback">
                       
                         <span class="item">User Feedback</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Help">
                       
                         <span class="item">Help</span>
                     </a>
                 </li>
             </ul>
         </div>
-       <div class = "medicalMid">
-            <div class ="medicalMidText">
-                <h2>Feedback</h2>
-                <h4> Send us a message & Your feedback is very valuable to us. </h4>
+        
+
+        <div class ="aboutUsCon">
+        <div class ="aboutMidText">
+                <h2>About Us</h2>
+               
+            </div>
+            <div class="aboutUs">
+                <h5>
+                    Ahmet Tuna Baykal 
+                </h5>
+                <h5>
+                    Contact Info: tuna.baykal@ug.bilkent.edu.tr
+                </h5>
             </div>
 
-      <div>
-      <form class ="form1">
-      <fieldset>
-         <label>
-           <p>E-mail*</p>
-           <input class="write" email="email" />
-         </label>
-         <label>
-           <p>Subject</p>
-           <input class="write" subject="subject" />
-         </label>
-         <label >
-           <p>Write a message</p>
-           <input class="writeMessage" message="message" />
-         </label>
-       </fieldset>
-       <button type="submit">Submit</button>
-      </form>
-      </div>
-         
+            <div class="aboutUs">
+            <h5>
+                    Esad İsmail Tok
+                </h5>
+                <h5>
+                    Contact Info: esad.tok@ug.bilkent.edu.tr
+                </h5>
+            </div>
+
+            <div class="aboutUs">
+            <h5>
+                    Elifnur Alsaç 
+                </h5>
+                <h5>
+                    Contact Info: elifnur.alsac@ug.bilkent.edu.tr
+                </h5>
+            </div>
+            <div class="aboutUs">
+            <h5>
+                    Kerem Tayhan
+                </h5>
+                <h5>
+                    Contact Info: kerem.tayhan@ug.bilkent.edu.tr
+                </h5>
+            </div>
+
+            <div class="aboutUs">
+            <h5>
+                    Alper Biçer
+                </h5>
+                <h5>
+                    Contact Info: alper.bicer@ug.bilkent.edu.tr
+                </h5>
+            </div>
+
+        </div>
 
 
-       </div>
+
+
+
+
         <div class = "rightSide">
           <span class = "info1">
               <h3>
@@ -161,4 +183,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default Feedback;
+export default AboutUs;

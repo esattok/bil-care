@@ -1,8 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function Smoking() {
+import './App.css';
+
+function Veneral() {
   return (
     
     <div className="App">
@@ -14,8 +13,8 @@ function Smoking() {
         <span className='healthCenter'>
          <h1>BİLKENT HEALTH CENTER</h1>
         </span>
-  <a class="active" href="#home">Log-out</a>
-  <a class="active" href="#home">My Profile</a>
+        <a class="active" href="/Login">Log-out</a>
+        <a class="active" href="/MyProfile">My Profile</a>
   </div>
 
     <body>
@@ -27,104 +26,127 @@ function Smoking() {
             </div>
 
             <ul>
-                <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js" class="active">
-                    
-                        <span class="item">Home</span>
+            <li>
+                        <a href="Home" class="active">
+                          <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/MedicalReport.js" class="active">
+                    <a href="/MedicalReport">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/TestResult">
                         <span class="item">Test Results</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Smoking">
                     
                         <span class="item">Smoking Cessitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js">
+                    <a href="/Veneral">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/HealthBackGround">
                     
                         <span class="item">Health Background Form</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AboutUs">
                       
                         <span class="item">About Us</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Feedback">
                       
                         <span class="item">User Feedback</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Help">
                       
                         <span class="item">Help</span>
                     </a>
                 </li>
             </ul>
         </div>
-        <div class = "medicalMid">
+       <div class = "medicalMid">
             <div class ="medicalMidText">
-                <h2>Smoking Cessitation</h2>
-                <button type="submit" class="buttonMake">Make Appointment</button>
+                <h2>Veneral Disease</h2>
+               
             </div>
 
-            <div class ="smokingDiv">
-                <p>Each cigarette takes two minutes of your life.</p>
-                <p>Quitting smoking reduces your chances of getting cancer.</p>
-                <p>Almost one out of every 5 deaths in the world is due to smoking.</p>
+            <div class = "healthReports">
+                 <div class="veneralBox">
+                    <p>
+                        Veneral diseases are commonly referred to as sexually-transmitted diseases(STDs). They are spread by skin-to-skin contact in the genital area.
+                        Veneral disease can affect anyone who is sexually active.
+                    </p>
+                    <p>
+                        Commonly veneral diseases include:
+                    </p>
+                    <p>
+                        Syphilis <br></br>
+                        Gonorrhera <br></br>
+                        Chlamydia <br></br>
+                        Human Papillomavirus Infection(HPV) <br></br>
+                        Genital Herpes <br></br>
+                        HIV/AIDS <br></br>
 
-              <form class ="smokingForm">
-                <fieldset>
-                    <label>
-                    <p>How many times do you smoke in one day?</p>
-                    <input class="write" times="times" />
-                    </label>
-                    <label>
-                    <p>For how long have you been smoking?</p>
-                    <input class="write" howlong="howlong" />
-                    </label>
-                    <label>
-                    <p>Do you find it difficult not to smoke in places where smoking is prohibited?</p>
-                    <input class="write" yesno="yesno" />
-                    </label>
-                    <label>
-                    <p>How soon after you wake up do you smoke your first cigarette?</p>
-                    <input class="write" yesno="yesno" />
-                    </label>
-                    <label>
-                    <p>Which cigarette would you hate most to give up?</p>
-                    <input class="write" yesno="yesno" />
-                    </label>
-                    <label>
-                    <p>How old were you when you first smoked an entire cigarette?</p>
-                    <input class="write" yesno="yesno" />
-                    </label>
-                </fieldset>
-                <button type="submit">Submit</button>
-                </form>
+                    </p>
+                    
+                    <p>
+                        Veneral diseases often impact skin health by causing warts and lesions on the skin in the affected area.
+                        Depending on your diagnosis, your dermatologist can help you develop a treatment plan to relieve some of the
+                        discomfort and restore your skin to to a healthier appearance. If you are concerned about treating the effects
+                        of veneral disease on skin, make an appointment with your dermatologist.
+                    </p>
+                </div>
+                <div class="veneralBox1">
+               
+               <br></br>
+               <br></br>
+               <br></br>
+               <p>
+                   If you have mentioned effects, consult a specialist.
+               </p>
+               <br></br>
+               <br></br>
+               <br></br>
+
+               <p>
+                   Phone Number: (0312) 290 16 66
+               </p>
+
+               <br></br>
+               <br></br>
+               <br></br>
+
+               <button >
+               <a href="/Appointment">
+                      <span class="item">Appointment</span>
+                </a>
+               </button>
+
+                </div>
+               
             </div>
 
-        </div>
+            <div>
+                
+            </div>
+
+       </div>
         <div class = "rightSide">
           <span class = "info1">
               <h3>
@@ -169,4 +191,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default Smoking;
+export default Veneral;

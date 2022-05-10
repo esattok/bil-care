@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function AboutUs() {
+function MyProfile() {
   return (
     
     <div className="App">
@@ -14,8 +14,8 @@ function AboutUs() {
         <span className='healthCenter'>
          <h1>BİLKENT HEALTH CENTER</h1>
         </span>
-  <a class="active" href="#home">Log-out</a>
-  <a class="active" href="#home">My Profile</a>
+  <a class="active" href="/Login">Log-out</a>
+  <a class="active" href="/MyProfile">My Profile</a>
   </div>
 
     <body>
@@ -27,55 +27,54 @@ function AboutUs() {
             </div>
 
             <ul>
-                <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js" class="active">
-                    
-                        <span class="item">Home</span>
+            <li>
+                        <a href="Home" class="active">
+                          <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/MedicalReport.js" class="active">
+                    <a href="/MedicalReport">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/TestResult">
                         <span class="item">Test Results</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Smoking">
                     
                         <span class="item">Smoking Cessitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js">
+                    <a href="/Veneral">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/HealthBackGround">
                     
                         <span class="item">Health Background Form</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AboutUs">
                       
                         <span class="item">About Us</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Feedback">
                       
                         <span class="item">User Feedback</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Help">
                       
                         <span class="item">Help</span>
                     </a>
@@ -83,62 +82,37 @@ function AboutUs() {
             </ul>
         </div>
         
+        <h2 class ="profileText">My Profile</h2>
+        <div class ="myProfileCon">
 
-        <div class ="aboutUsCon">
-        <div class ="aboutMidText">
-                <h2>About Us</h2>
-               
-            </div>
-            <div class="aboutUs">
-                <h5>
-                    Ahmet Tuna Baykal 
-                </h5>
-                <h5>
-                    Contact Info: tuna.baykal@ug.bilkent.edu.tr
-                </h5>
+            <div class ="myProfileImg">
+            <img src="https://cdn4.vectorstock.com/i/thumb-large/28/63/profile-placeholder-image-gray-silhouette-vector-21542863.jpg" alt="profile_picture"></img>
             </div>
 
-            <div class="aboutUs">
-            <h5>
-                    Esad İsmail Tok
-                </h5>
-                <h5>
-                    Contact Info: esad.tok@ug.bilkent.edu.tr
-                </h5>
+            <div class ="myProfileBox">
+            <p>Hereditary Diseases:</p> 
+            <p>Color Blindness Hemophilia </p>
+
+            
             </div>
 
-            <div class="aboutUs">
-            <h5>
-                    Elifnur Alsaç 
-                </h5>
-                <h5>
-                    Contact Info: elifnur.alsac@ug.bilkent.edu.tr
-                </h5>
-            </div>
-            <div class="aboutUs">
-            <h5>
-                    Kerem Tayhan
-                </h5>
-                <h5>
-                    Contact Info: kerem.tayhan@ug.bilkent.edu.tr
-                </h5>
+            <div class ="myProfileBox">
+            <p>Ahmet Tuna Baykal</p>
+            <p>Age : 22</p>
+            <br></br>
+            <p>Last Occurence at Health Center:</p>
+            <p>1 month ago</p>
+
             </div>
 
-            <div class="aboutUs">
-            <h5>
-                    Alper Biçer
-                </h5>
-                <h5>
-                    Contact Info: alper.bicer@ug.bilkent.edu.tr
-                </h5>
+            <div class ="myProfileBox">
+            <p>Recent Complaints:</p>
+            <p> Stomach Ache, Head Ache, Heart Palpitations</p>
             </div>
 
         </div>
 
-
-
-
-
+        <button type="submit" class="editPro">Edit Profile</button>
 
         <div class = "rightSide">
           <span class = "info1">
@@ -184,4 +158,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default AboutUs;
+export default MyProfile;

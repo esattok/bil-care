@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import React from 'react';
 
@@ -20,8 +20,8 @@ function Help() {
         <span className='healthCenter'>
          <h1>BİLKENT HEALTH CENTER</h1>
         </span>
-  <a class="active" href="#home">Log-out</a>
-  <a class="active" href="#home">My Profile</a>
+        <a class="active" href="/Login">Log-out</a>
+        <a class="active" href="/MyProfile">My Profile</a>
   </div>
 
     <body>
@@ -33,55 +33,54 @@ function Help() {
             </div>
 
             <ul>
-                <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js" class="active">
-                    
-                        <span class="item">Home</span>
+            <li>
+                        <a href="Home" class="active">
+                          <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/MedicalReport">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/TestResult">
                         <span class="item">Test Results</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Smoking">
                     
                         <span class="item">Smoking Cessitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Veneral">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/HealthBackGround">
                     
                         <span class="item">Health Background Form</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AboutUs">
                       
                         <span class="item">About Us</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Feedback">
                       
                         <span class="item">User Feedback</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Help">
                       
                         <span class="item">Help</span>
                     </a>

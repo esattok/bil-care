@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function HealthBackGround() {
+function MedicalReport() {
   return (
     
     <div className="App">
@@ -14,8 +12,8 @@ function HealthBackGround() {
         <span className='healthCenter'>
          <h1>BİLKENT HEALTH CENTER</h1>
         </span>
-  <a class="active" href="#home">Log-out</a>
-  <a class="active" href="#home">My Profile</a>
+        <a class="active" href="/Login">Log-out</a>
+        <a class="active" href="/MyProfile">My Profile</a>
   </div>
 
     <body>
@@ -27,86 +25,98 @@ function HealthBackGround() {
             </div>
 
             <ul>
-                <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js" class="active">
-                    
-                        <span class="item">Home</span>
+            <li>
+                        <a href="Home" class="active">
+                          <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/MedicalReport.js" class="active">
+                    <a href="/MedicalReport">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/TestResult">
                         <span class="item">Test Results</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Smoking">
                     
                         <span class="item">Smoking Cessitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js">
+                    <a href="/Veneral">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/HealthBackGround">
                     
                         <span class="item">Health Background Form</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AboutUs">
                       
                         <span class="item">About Us</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Feedback">
                       
                         <span class="item">User Feedback</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Help">
                       
                         <span class="item">Help</span>
                     </a>
                 </li>
             </ul>
         </div>
-        
-        <div class="backCon">
+       <div class = "medicalMid">
+            <div class ="medicalMidText">
+                <h2>My Medical Reports</h2>
+                <h4> Below are the medical reports added by the system</h4>
+            </div>
 
-        <div class="backBox">
-            <h4>
-                Download default Health BackGround Form.
-            </h4>
-                 <p>Download the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">here
+            <div class = "healthReports">
+                 <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
                  </a>.
                  <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
                  </p>
-        </div>
-
-        <div class="backBox">
-        <h4>
-                Upload your Health BackGround Form.
-            </h4>
-                 <p>Upload the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">here
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
                  </a>.
                  <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
                  </p>
-        </div>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+            </div>
 
-        </div>
+            <div>
+                
+            </div>
 
+       </div>
         <div class = "rightSide">
           <span class = "info1">
               <h3>
@@ -151,4 +161,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default HealthBackGround;
+export default MedicalReport;

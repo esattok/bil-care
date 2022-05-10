@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 
-function Veneral() {
+function TestResult() {
   return (
     
     <div className="App">
@@ -13,8 +12,8 @@ function Veneral() {
         <span className='healthCenter'>
          <h1>BİLKENT HEALTH CENTER</h1>
         </span>
-  <a class="active" href="#home">Log-out</a>
-  <a class="active" href="#home">My Profile</a>
+        <a class="active" href="/Login">Log-out</a>
+        <a class="active" href="/MyProfile">My Profile</a>
   </div>
 
     <body>
@@ -26,55 +25,54 @@ function Veneral() {
             </div>
 
             <ul>
-                <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js" class="active">
-                    
-                        <span class="item">Home</span>
+            <li>
+                        <a href="Home" class="active">
+                          <span class="item">Home</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/MedicalReport">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/TestResult">
                         <span class="item">Test Results</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Smoking">
                     
                         <span class="item">Smoking Cessitation</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Veneral">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/HealthBackGround">
                     
                         <span class="item">Health Background Form</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/AboutUs">
                       
                         <span class="item">About Us</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Feedback">
                       
                         <span class="item">User Feedback</span>
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="/Help">
                       
                         <span class="item">Help</span>
                     </a>
@@ -83,60 +81,35 @@ function Veneral() {
         </div>
        <div class = "medicalMid">
             <div class ="medicalMidText">
-                <h2>Veneral Disease</h2>
-               
+                <h2>Test Results</h2>
+                <h4> Below are the test results added by the system</h4>
             </div>
 
             <div class = "healthReports">
-                 <div class="veneralBox">
-                    <p>
-                        Veneral diseases are commonly referred to as sexually-transmitted diseases(STDs). They are spread by skin-to-skin contact in the genital area.
-                        Veneral disease can affect anyone who is sexually active.
-                    </p>
-                    <p>
-                        Commonly veneral diseases include:
-                    </p>
-                    <p>
-                        Syphilis <br></br>
-                        Gonorrhera <br></br>
-                        Chlamydia <br></br>
-                        Human Papillomavirus Infection(HPV) <br></br>
-                        Genital Herpes <br></br>
-                        HIV/AIDS <br></br>
-
-                    </p>
-                    
-                    <p>
-                        Veneral diseases often impact skin health by causing warts and lesions on the skin in the affected area.
-                        Depending on your diagnosis, your dermatologist can help you develop a treatment plan to relieve some of the
-                        discomfort and restore your skin to to a healthier appearance. If you are concerned about treating the effects
-                        of veneral disease on skin, make an appointment with your dermatologist.
-                    </p>
-                </div>
-                <div class="veneralBox1">
-               
-               <br></br>
-               <br></br>
-               <br></br>
-               <p>
-                   If you have mentioned effects, consult a specialist.
-               </p>
-               <br></br>
-               <br></br>
-               <br></br>
-
-               <p>
-                   Phone Number: (0312) 290 16 66
-               </p>
-
-               <br></br>
-               <br></br>
-               <br></br>
-
-               <button type="submit" class="buttonMake">Make Appointment</button>
-
-                </div>
-               
+                 <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
             </div>
 
             <div>
@@ -188,4 +161,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default Veneral;
+export default TestResult;
