@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
+import React from 'react';
 
-function App() {
+function Help() {
+
+
+
+
+
+
   return (
-    
+
     <div className="App">
        
       <div className="topnav">
@@ -34,7 +40,7 @@ function App() {
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/MedicalReport.js" class="active">
+                    <a href="#">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
@@ -51,7 +57,7 @@ function App() {
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js">
+                    <a href="#">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
@@ -82,18 +88,35 @@ function App() {
                 </li>
             </ul>
         </div>
-        <div class = "midSide">
-        <img class ="mainImage"src="https://cdn-res.keymedia.com/cdn-cgi/image/w=480,h=320,fit=cover,f=auto/https://cdn-res.keymedia.com/cms/images/us/003/0248_637163141592652213.jpg" alt="profile_picture"></img>
-        <div class = "homeText">
-        <h3 class = "health3">Your health is important to us</h3>
-        <p> Our objective is to promote physical and emotional well-being of our students and staff. With facilities on both Main and East Campuses, we provide primary care medical services as well as preventative health care and health education.</p>
-        <h5> In case of emergency:
-Dial extension 6666 from campus or
-0312 266 4050 or 0312 266 4051 from outside campus</h5>
-      <h6>BOTH HEALTH CENTERS ARE OPEN 7/24 IN CASE OF EMERGENCY
-In cases of emergency, university ambulances accompanied by Health Center doctors and nurses are available 24 hours a day to take patients to nearby hospitals.  </h6>
-</div>
-        </div>
+       <div class = "medicalMid">
+            <div class ="medicalMidText">
+                <h2>HELP</h2>
+                <h4> Send us a message & we are here to help you</h4>
+            </div>
+
+      <div>
+      <form class ="form">
+      <fieldset>
+         <label>
+           <p>E-mail*</p>
+           <input class="write" email="email" />
+         </label>
+         <label>
+           <p>Subject</p>
+           <input class="write" subject="subject" />
+         </label>
+         <label >
+           <p>Write a message</p>
+           <input class="writeMessage" message="message" />
+         </label>
+       </fieldset>
+       <button type="submit">Submit</button>
+      </form>
+      </div>
+         
+
+
+       </div>
         <div class = "rightSide">
           <span class = "info1">
               <h3>
@@ -138,4 +161,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default App;
+export default Help;

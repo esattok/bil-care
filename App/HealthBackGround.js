@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function App() {
+function HealthBackGround() {
   return (
     
     <div className="App">
@@ -82,18 +82,31 @@ function App() {
                 </li>
             </ul>
         </div>
-        <div class = "midSide">
-        <img class ="mainImage"src="https://cdn-res.keymedia.com/cdn-cgi/image/w=480,h=320,fit=cover,f=auto/https://cdn-res.keymedia.com/cms/images/us/003/0248_637163141592652213.jpg" alt="profile_picture"></img>
-        <div class = "homeText">
-        <h3 class = "health3">Your health is important to us</h3>
-        <p> Our objective is to promote physical and emotional well-being of our students and staff. With facilities on both Main and East Campuses, we provide primary care medical services as well as preventative health care and health education.</p>
-        <h5> In case of emergency:
-Dial extension 6666 from campus or
-0312 266 4050 or 0312 266 4051 from outside campus</h5>
-      <h6>BOTH HEALTH CENTERS ARE OPEN 7/24 IN CASE OF EMERGENCY
-In cases of emergency, university ambulances accompanied by Health Center doctors and nurses are available 24 hours a day to take patients to nearby hospitals.  </h6>
-</div>
+        
+        <div class="backCon">
+
+        <div class="backBox">
+            <h4>
+                Download default Health BackGround Form.
+            </h4>
+                 <p>Download the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">here
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
         </div>
+
+        <div class="backBox">
+        <h4>
+                Upload your Health BackGround Form.
+            </h4>
+                 <p>Upload the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">here
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+        </div>
+
+        </div>
+
         <div class = "rightSide">
           <span class = "info1">
               <h3>
@@ -138,4 +151,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default App;
+export default HealthBackGround;

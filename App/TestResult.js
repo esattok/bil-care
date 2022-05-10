@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function App() {
+function TestResult() {
   return (
     
     <div className="App">
@@ -34,7 +33,7 @@ function App() {
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/MedicalReport.js" class="active">
+                    <a href="#">
                        
                         <span class="item">My Medical Reports</span>
                     </a>
@@ -51,7 +50,7 @@ function App() {
                     </a>
                 </li>
                 <li>
-                    <a href="/Users/ahmettunabaykal/Desktop/cs-319/src/App.js">
+                    <a href="#">
                   
                         <span class="item">Veneral Diseases</span>
                     </a>
@@ -82,18 +81,44 @@ function App() {
                 </li>
             </ul>
         </div>
-        <div class = "midSide">
-        <img class ="mainImage"src="https://cdn-res.keymedia.com/cdn-cgi/image/w=480,h=320,fit=cover,f=auto/https://cdn-res.keymedia.com/cms/images/us/003/0248_637163141592652213.jpg" alt="profile_picture"></img>
-        <div class = "homeText">
-        <h3 class = "health3">Your health is important to us</h3>
-        <p> Our objective is to promote physical and emotional well-being of our students and staff. With facilities on both Main and East Campuses, we provide primary care medical services as well as preventative health care and health education.</p>
-        <h5> In case of emergency:
-Dial extension 6666 from campus or
-0312 266 4050 or 0312 266 4051 from outside campus</h5>
-      <h6>BOTH HEALTH CENTERS ARE OPEN 7/24 IN CASE OF EMERGENCY
-In cases of emergency, university ambulances accompanied by Health Center doctors and nurses are available 24 hours a day to take patients to nearby hospitals.  </h6>
-</div>
-        </div>
+       <div class = "medicalMid">
+            <div class ="medicalMidText">
+                <h2>Test Results</h2>
+                <h4> Below are the test results added by the system</h4>
+            </div>
+
+            <div class = "healthReports">
+                 <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+                <span class="healthReport">
+                 <p>Open the PDF file <a href="/uploads/media/default/0001/01/540cb75550adf33f281f29132dddd14fded85bfc.pdf">example
+                 </a>.
+                 <img class="healthImage"src="https://thumbs.dreamstime.com/b/pdf-file-icon-format-download-document-image-button-vector-doc-216498826.jpg" alt="profile_picture"></img>
+                 </p>
+                </span>
+            </div>
+
+            <div>
+                
+            </div>
+
+       </div>
         <div class = "rightSide">
           <span class = "info1">
               <h3>
@@ -138,4 +163,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default App;
+export default TestResult;

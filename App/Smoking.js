@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"></link>
 
-function App() {
+function Smoking() {
   return (
     
     <div className="App">
@@ -82,17 +82,48 @@ function App() {
                 </li>
             </ul>
         </div>
-        <div class = "midSide">
-        <img class ="mainImage"src="https://cdn-res.keymedia.com/cdn-cgi/image/w=480,h=320,fit=cover,f=auto/https://cdn-res.keymedia.com/cms/images/us/003/0248_637163141592652213.jpg" alt="profile_picture"></img>
-        <div class = "homeText">
-        <h3 class = "health3">Your health is important to us</h3>
-        <p> Our objective is to promote physical and emotional well-being of our students and staff. With facilities on both Main and East Campuses, we provide primary care medical services as well as preventative health care and health education.</p>
-        <h5> In case of emergency:
-Dial extension 6666 from campus or
-0312 266 4050 or 0312 266 4051 from outside campus</h5>
-      <h6>BOTH HEALTH CENTERS ARE OPEN 7/24 IN CASE OF EMERGENCY
-In cases of emergency, university ambulances accompanied by Health Center doctors and nurses are available 24 hours a day to take patients to nearby hospitals.  </h6>
-</div>
+        <div class = "medicalMid">
+            <div class ="medicalMidText">
+                <h2>Smoking Cessitation</h2>
+                <button type="submit" class="buttonMake">Make Appointment</button>
+            </div>
+
+            <div class ="smokingDiv">
+                <p>Each cigarette takes two minutes of your life.</p>
+                <p>Quitting smoking reduces your chances of getting cancer.</p>
+                <p>Almost one out of every 5 deaths in the world is due to smoking.</p>
+
+              <form class ="smokingForm">
+                <fieldset>
+                    <label>
+                    <p>How many times do you smoke in one day?</p>
+                    <input class="write" times="times" />
+                    </label>
+                    <label>
+                    <p>For how long have you been smoking?</p>
+                    <input class="write" howlong="howlong" />
+                    </label>
+                    <label>
+                    <p>Do you find it difficult not to smoke in places where smoking is prohibited?</p>
+                    <input class="write" yesno="yesno" />
+                    </label>
+                    <label>
+                    <p>How soon after you wake up do you smoke your first cigarette?</p>
+                    <input class="write" yesno="yesno" />
+                    </label>
+                    <label>
+                    <p>Which cigarette would you hate most to give up?</p>
+                    <input class="write" yesno="yesno" />
+                    </label>
+                    <label>
+                    <p>How old were you when you first smoked an entire cigarette?</p>
+                    <input class="write" yesno="yesno" />
+                    </label>
+                </fieldset>
+                <button type="submit">Submit</button>
+                </form>
+            </div>
+
         </div>
         <div class = "rightSide">
           <span class = "info1">
@@ -138,4 +169,4 @@ Seizures or convulsions</h3>
 }
 
 
-export default App;
+export default Smoking;
